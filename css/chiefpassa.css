@@ -1,0 +1,138 @@
+.ui-page{
+font-family:Microsoft JhengHei !important;
+}
+
+/*啟動原因*/
+reason{
+  font-size:20px;
+  color:black;
+  font-weight:bold;
+}
+
+
+/*全部的長官的字:指揮官...等等*/
+member{
+  font-size:20px;
+  color:white;
+}
+
+/*文字輸入框*/
+.ui-input-text{
+  background-color: #e0e0e0  !important;
+}
+
+/*page顏色更改*/
+.ui-page {
+  background-color: white !important;
+}
+
+/*把border框線改成黑色*/
+.ui-bar-inherit{
+  border-color:#444444 !important;
+}
+
+.ui-bar-a{
+   background-color: white !important;
+  /* border-color:#444444 !important;*/
+  border: 0px;
+}
+
+.ui-block-a {
+  border: 1px solid #ddd;
+}
+
+.ui-block-b {
+  border: 1px solid #ddd;
+  border-left: 0px !important;
+}
+
+hr{
+ margin: 0px;
+}
+
+.ui-content{
+width: 100% !important; 
+}
+
+.ui-grid-a{
+width: 100% !important; 
+}
+
+.ui-block-a {
+  width: 15% !important; 
+  height: 500px !important; 
+}
+
+.ui-block-b {
+  width: 85% !important;
+}
+
+.people-remark{
+  font-size:20px;
+  color:white;
+  /*margin-top: 300px;*/
+}
+
+.people-remark1{
+  font-size:20px;
+  color:white;
+}
+
+/*回覆數字*/
+count{
+  color:red !important;
+}
+
+
+/*::-webkit-input-placeholder{
+  color: red;
+}*/
+
+::placeholder {
+    color:#4f4f4f !important;
+    font-family:Microsoft JhengHei !important;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:#4f4f4f !important;
+   font-family:Microsoft JhengHei !important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:#4f4f4f !important;
+   font-family:Microsoft JhengHei !important;
+}
+
+/*人員分配按鈕顏色*/
+.ui-people{
+  font-size: 18px !important;
+  background:linear-gradient(to bottom, #faa5ba 5%, #ad033c 100%) !important;
+  border:1px solid #ff2d2d !important;
+}
+.ui-people:hover{
+  background:linear-gradient(to bottom, #ad033c 5%, #faa5ba 100%) !important;
+  color:#FFF400 !important;
+}
+.ui-people:active{
+  position:relative;
+  top:1px;
+}
+
+  /*其他按鈕顏色*/
+   .ui-all{
+    font-size: 18px !important;
+    background:linear-gradient(to bottom, #6ebe45 5%, #00a94f 100%) ;
+    border:1px solid #41ae44;
+   }
+
+  .ui-all:hover {
+    background:linear-gradient(to bottom, #00a94f 5%, #6ebe45 100%)  ;
+    color:#FFF400 !important;
+  }
+  .ui-all:active {
+     position:relative;
+     top:1px;
+  } 
+
+.ui-bar-a,.ui-body-inherit,.ui-bar-inherit{
+  border-color:  #444444 !important;
+}

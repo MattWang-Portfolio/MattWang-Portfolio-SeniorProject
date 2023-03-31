@@ -1,0 +1,121 @@
+.ui-page{
+font-family:Microsoft JhengHei !important;
+}
+
+.ui-page {
+  background-color: #D3D3D3 !important;
+}
+
+.ui-content{
+width: 100% !important; 
+}
+
+.ui-grid-c{
+width: 100% !important; 
+}
+
+/*部門*/
+.ui-block-a {
+  width: 15% !important; 
+}
+
+/*訊息內容*/
+.ui-block-b {
+  width: 42% !important;
+}
+
+/*回覆*/
+.ui-block-c {
+  width: 40% !important;
+}
+
+.ui-bar{
+  border-color: #dddddd !important;
+}
+
+/*三個標題:部門，訊息內容，訊息回復*/
+department{
+  font-size:20px;
+  color:white;
+  width: 100%;
+}
+
+/*日期*/
+datetext{
+   font-size:11px;
+  /*color: #9d9d9d   !important;*/
+}
+
+/*listview*/
+div[data-role="content"] {
+   /*position: relative;*/
+}
+
+.listview li {
+    height :110px;
+}
+
+.container {
+  padding-top: 30px;
+}
+
+/*訊息文字*/
+.message{
+  font-size:19px;
+}
+
+pre {
+  margin-top:0px;
+  padding: 0px;
+  white-space: pre-line;
+  word-wrap:break-word; /*若一個單字過長，超過畫面的寬度，則將單字換行(不切斷單字)。 */
+  font-size:19px;
+  /* width: 350px時，換行*/
+  width: 350px;
+}
+
+/*數字(現在還有幾個訊息沒回覆)*/
+count{
+  color:red !important;
+}
+
+/*完成事項按鈕顏色*/
+.ui-complete{
+  background-color: #FF0000   !important;
+}
+
+.ui-bar-a,.ui-body-inherit,.ui-bar-inherit{
+  border-color:  #444444 !important;
+}
+
+/*完成事項按鈕顏色*/
+.ui-complete{
+  font-size: 18px !important;
+  background:linear-gradient(to bottom, #faa5ba 5%, #ad033c 100%) !important;
+  border:1px solid #ff2d2d !important;
+}
+.ui-complete:hover{
+  background:linear-gradient(to bottom, #ad033c 5%, #faa5ba 100%) !important;
+  color:#FFF400 !important;
+}
+.ui-complete:active{
+  position:relative;
+  top:1px;
+}
+
+  /*其他按鈕顏色*/
+   .ui-all{
+    font-size: 18px !important;
+    background:linear-gradient(to bottom, #6ebe45 5%, #00a94f 100%) ;
+    border:1px solid #41ae44;
+   }
+
+  .ui-all:hover {
+    background:linear-gradient(to bottom, #00a94f 5%, #6ebe45 100%)  ;
+    color:#FFF400 !important;
+  }
+  .ui-all:active {
+     position:relative;
+     top:1px;
+  } 
+

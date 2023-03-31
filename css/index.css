@@ -1,0 +1,315 @@
+
+.ui-page{
+font-family:Microsoft JhengHei !important;
+}
+
+
+subject{
+   font-size:50px;
+   width: 100%;
+   color:white;
+}
+
+/*災難原因*/
+reason{
+   font-size:23px;
+   color:red !important;
+}
+
+/*button間隔，因為人員分配按鈕會重疊*/
+.interval-btn{
+   margin-top: 20px !important;
+}
+
+/*page顏色更改*/
+.ui-page {
+  background-color: white !important;
+}
+
+/*標題文字(現場單位、支援單位、資訊總覽):讓間距變小----------------padding:0px;、margin:0px;*/
+.headline{
+  font-size:25px;
+  padding:0px;
+  margin:0px;
+  color:black ;
+  text-align: center;
+}
+
+/* 支援單位 水平置中*/
+.support-block{
+  text-align: center;
+}
+
+/*支援單位的按鈕*/
+.ui-btn.support {
+     min-width: 54px;
+     min-height: 54px;
+     line-height: 52px;
+     margin:0px;
+     margin-bottom:5px !important;
+     display:inline-block;
+     border-radius: 100%;
+     background:linear-gradient(to bottom, #6ebe45 5%, #00a94f 100%);
+     border:1px solid #41ae44;
+     color:#ffffff;
+     font-family:Arial;
+     font-size:17px;
+     font-weight:bold;
+     /*text-decoration:none;*/
+     text-shadow:0px 1px 0px #86ae47;
+    /*max-width: 100px !important;*/
+}
+
+
+.ui-btn.support:hover {
+  background:linear-gradient(to bottom, #00a94f 5%, #6ebe45 100%);
+  color:#FFF400;
+}
+.ui-btn.support:active {
+  position:relative;
+  top:1px;
+}
+
+/*支援單位的按鈕(字比較多的按鈕要改line-height)*/
+.ui-btn.support1{
+    min-width: 65px;
+    min-height: 65px;
+    margin:0px !important;
+    display:inline-block;
+    border-radius: 100%;
+    line-height: 25px;
+    background:linear-gradient(to bottom, #6ebe45 5%, #00a94f 100%);
+    border:1px solid #41ae44;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    font-weight:bold;
+    /*text-decoration:none;*/
+    text-shadow:0px 1px 0px #86ae47;
+}
+
+/*支援單位的button要比較小的按鈕*/
+.ui-btn.support1:hover {
+  background:linear-gradient(to bottom, #00a94f 5%, #6ebe45 100%);
+  color:#FFF400;
+}
+.ui-btn.support1:active {
+  position:relative;
+  top:1px;
+}
+
+
+
+/*資訊總覽的button*/
+.ui-btn-text{
+    border:0px !important;
+   /* font-family:"Calibri",Arial,Sans Serif;*/
+    font-size: 22px;
+    line-height: 30px;
+    /*background-color: white !important;
+    color:black !important;*/
+    text-align: center;
+    /*wordwrap: normal;*/
+    /*陰影*/
+    /*box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3) !important;*/
+    border-radius: 6px !important;
+    /*border-color:#AAAAAA   !important;*/
+    background:linear-gradient(to bottom, #EDEDED  10%, #D4D4D4  100%);
+    background-color:#dbdbdb;
+    border-radius:6px;
+    cursor:pointer;
+    color:#000000 !important;
+    font-family:Arial;
+    /*text-decoration:none; */ /*有關底線的*/
+}
+.ui-btn-text:hover {
+  background:linear-gradient(to bottom, #D4D4D4 5%, #EDEDED 100%);
+  background-color:#1a1a1a;
+}
+.ui-btn-text:active {
+  /*position:relative;*/
+  top:1px;
+}
+
+/*ui-bar*/
+.ui-bar{
+    background-color: white !important;
+   /* box-shadow:1px 1px 5px rgba(0, 0, 0, 0.7) !important;*/
+}
+
+/*調整現場單位的button1*/
+.ui-btn-text-black{
+    border:0px !important;
+   /* font-family:"Calibri",Arial,Sans Serif;*/
+    font-size: 22px;
+    line-height: 30px;
+    /*background-color: black !important;*/
+    /*color:white !important;*/
+    text-align: center;
+    /*wordwrap: normal;*/
+    border-radius: 6px !important;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:linear-gradient(to bottom, #dbdbdb 5%, #1a1a1a 100%);
+    /* display:inline-block;*/
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    /*font-size:15px;*/
+    /*padding:14px 59px;*/
+    text-decoration:none;
+    /*text-shadow:1px 1px 1px #FFFFFF;*/
+}
+
+.ui-btn-text-black:hover {
+  background:linear-gradient(to bottom, #1a1a1a 5%, #dbdbdb 100%);
+  background-color:#1a1a1a;
+}
+.ui-btn-text-black:active {
+  position:relative;
+  top:1px;
+}
+
+
+/*調整現場單位的button2*/
+.ui-btn-text-red{
+  border:0px !important;
+  font-size: 22px;
+  line-height: 30px;
+  /* background-color: red !important;
+  color:white !important;*/
+  text-align: center;
+  border-radius: 6px !important;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+
+  background:linear-gradient(to bottom, #faa5ba 5%, #ad033c 100%);
+  /*display:inline-block;*/
+  cursor:pointer;
+}
+
+.ui-btn-text-red:hover {
+  background:linear-gradient(to bottom, #ad033c 5%, #faa5ba 100%);
+}
+.ui-btn-text-red:active {
+  position:relative;
+  top:1px;
+}
+
+
+/*調整現場單位的button3*/
+.ui-btn-text-blue{
+  border:0px !important;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 6px !important;
+  box-shadow: 0px 1px 0px 0px #ffffff;
+  background:linear-gradient(to bottom, #bfd6ff 5%, #0010bf 100%);
+  background-color:#bfd6ff;
+  border-radius:6px;
+  cursor:pointer;
+  font-family:Arial;
+  text-decoration:none;
+}
+
+.ui-btn-text-blue:hover {
+  background:linear-gradient(to bottom, #0010bf 5%, #bfd6ff 100%);
+  background-color:#0010bf;
+}
+.ui-btn-text-blue:active {
+  position:relative;
+  top:1px;
+}
+
+
+/*調整現場單位的button4*/
+.ui-btn-text-green{
+  border:0px !important;
+  font-size: 22px;
+  line-height: 30px;
+    /*background-color: green !important;
+    color:white !important;*/
+  text-align: center;
+    /*wordwrap: normal;*/
+  border-radius: 6px !important;
+  box-shadow: 0px 1px 0px 0px #ffffff;
+  background:linear-gradient(to bottom, #16bd00 5%, #0c5716 100%);
+  background-color:#16bd00;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  text-decoration:none;
+}
+
+.ui-btn-text-green:hover {
+  background:linear-gradient(to bottom, #0c5716 5%, #16bd00 100%);
+}
+
+.ui-btn-text-green:active {
+  position:relative;
+  top:1px;
+}
+
+/*調整現場單位的button5*/
+.ui-btn-text-orange{
+  border:0px !important;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 6px !important;
+  box-shadow: 0px 1px 0px 0px #ffffff;
+  background:linear-gradient(to bottom, #f0dfbb 5%, #ff7300 100%);
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  text-decoration:none;
+}
+
+.ui-btn-text-orange:hover {
+  background:linear-gradient(to bottom, #ff7300 5%, #f0dfbb 100%);
+}
+
+.ui-btn-text-orange:active {
+  position:relative;
+  top:1px;
+}
+
+
+fieldset {
+   margin:0px !important;
+   /*margin-top:0px !important;*/
+   margin-left:20px !important;
+   padding: 0px !important;
+}
+
+
+/*使用者*/
+.username{
+   width:100%;
+   text-align:right !important;
+   color:black;  
+   font-size: 20px;
+}
+
+
+/*登出*/
+.logout{
+  font-size: 18px !important;
+  background:linear-gradient(to bottom, #6ebe45 5%, #00a94f 100%);
+  border:1px solid #41ae44;
+  font-family:Arial;
+}
+.logout:hover {
+  background:linear-gradient(to bottom, #00a94f 5%, #6ebe45 100%);
+  color:#FFF400 !important;
+}
+.logout:active {
+  position:relative;
+  top:1px;
+}
+
+
+
+/*把border框線改成白色*/
+.ui-bar-inherit,.ui-bar-a{
+  border-color:#000000     !important;
+}

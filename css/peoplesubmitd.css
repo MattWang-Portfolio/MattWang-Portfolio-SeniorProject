@@ -1,0 +1,118 @@
+.ui-page{
+font-family:Microsoft JhengHei !important;
+}
+
+body{
+    height: 100% !important;
+}
+#page{
+    height: 100% !important;
+}
+.ui-content{
+    height: 100% !important;
+}
+.ui-grid-a{
+    height: auto !important;
+}
+.ui-block-a{
+    height: auto !important;
+}
+/*簡訊發送回覆狀況、人力召回*/
+.item{
+   background-color:#000000 !important;
+   color: white;
+   font-size:20px; 
+   margin: 0px;
+   margin-bottom: 0px;
+   text-align:center !important;
+   width:100% !important;
+}
+
+/*table*/
+table.myFormat
+{
+  display: block;
+  font-size: 18px;
+  color:black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /*border: 2px solid #000000;*/
+  border-collapse: collapse !important;
+  width: 100%;
+
+
+}
+
+table.myFormat tr th
+{ 
+  padding-top:2px; 
+  padding-left:5px; 
+  padding-right:3px; 
+  padding-bottom:1px; 
+  border: 2px solid #000000;
+  background-color:#98F898        !important;
+}
+
+table.myFormat tr td
+{ 
+  padding-top:2px; 
+  padding-left:5px; 
+  padding-right:3px; 
+  padding-bottom:1px; 
+  border: 2px solid #000000;
+  background-color:#98F898        !important;
+  /*border-bottom: none;*/
+  /*font-family:cursive, DFKai-SB, generic-family;*/
+  /*border-spacing:0px !important;*/
+}
+
+
+count{
+ color:red;
+}
+
+
+
+/*人力召回按鈕顏色*/
+.ui-people-submit{
+  font-size: 18px !important;
+  background:linear-gradient(to bottom, #faa5ba 5%, #ad033c 100%) !important;
+  border:1px solid #ff2d2d !important;
+  font-family:Arial;
+}
+.ui-people-submit:hover{
+  background:linear-gradient(to bottom, #ad033c 5%, #faa5ba 100%) !important;
+  color:#FFF400 !important;
+}
+.ui-people-submit:active{
+  position:relative;
+  top:1px;
+}
+
+
+  /*其他按鈕顏色*/
+   .ui-all{
+    font-size: 18px !important;
+    background:linear-gradient(to bottom, #6ebe45 5%, #00a94f 100%) ;
+    border:1px solid #41ae44;
+    font-family:Arial;
+   }
+
+  .ui-all:hover {
+    background:linear-gradient(to bottom, #00a94f 5%, #6ebe45 100%)  ;
+    color:#FFF400 !important;
+  }
+  .ui-all:active {
+     position:relative;
+     top:1px;
+  } 
+
+
+
+
+
+
+/*把border框線改成黑色*/
+.ui-bar-inherit,.ui-bar-a{
+  border-color:#444444 !important;
+}

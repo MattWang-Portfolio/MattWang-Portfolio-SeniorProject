@@ -1,0 +1,246 @@
+.ui-page{
+font-family:Microsoft JhengHei !important;
+}
+
+
+/*-------------------------------------------------------------------------------------navebar*/
+/*部門*/
+departmentext{
+  color: black !important;
+  text-shadow: rgb(71, 71, 71) 1px 1px 1px !important;
+  font-size: 30px !important;
+}
+
+/*登出*/
+.logout{
+  font-size: 18px !important;
+  box-shadow:inset 0px 1px 0px 0px #6ebe45;
+  background:linear-gradient(to bottom, #6ebe45 5%, #00a94f 100%);
+  border:1px solid #41ae44;
+  color:white; 
+  font-family:Arial;
+}
+.logout:hover {
+  background:linear-gradient(to bottom, #00a94f 5%, #6ebe45 100%);
+  background-color:#00a94f;
+  color:#FFF400 !important;
+}
+.logout:active {
+  position:relative;
+  top:1px;
+}
+
+/*使用者*/
+.username{
+   width:100%;
+   text-align:right !important;
+   color:black;
+   font-size:20px;
+}
+/*-------------------------------------------------------------------------------------navebar*/
+
+/*調整不能按的按鈕的字*/
+/*button[disabled=disabled], button:disabled {
+   background-color:rgb(255, 0, 0) !important;
+    -webkit-opacity:1; 有這個才能正常顯示顏色
+}*/
+
+
+/*品項 、請求總數*/
+.btn-subject{
+    cursor: not-allowed;
+    pointer-events: none;
+    color: white !important;
+    background-color: #009245   !important;
+    border:1px #009245 solid !important;
+    font-size: 20px !important;
+    padding:2px !important; 
+    margin:5px !important; 
+    margin-bottom:3px !important; 
+}
+
+/*品項 、請求總數*/
+.btn-subject1{
+    cursor: not-allowed;
+    pointer-events: none;
+    color: white !important;
+    background-color: #009245   !important;
+    border:1px #009245 solid !important;
+    font-size: 15px !important;
+    padding:2px !important; 
+    margin:7px !important; 
+    margin-bottom:0px !important; 
+}
+
+
+/*耗材、物品儀器*/
+.btn-item{
+    cursor: not-allowed;
+    pointer-events: none;
+    color: black !important;
+    background-color: white   !important;
+    border:1px #FFFFFF solid !important;
+    font-size: 20px !important;
+    padding:2px !important; 
+    margin:5px !important; 
+}
+
+/*物品按鈕:全部和未送*/
+.ui-item{
+  margin-left: 20px !important;
+  margin-bottom: 5px !important;
+  border-radius: 3px !important;
+  width: 85px !important;
+  border:1px #000000 solid !important;
+}
+
+/*物品按鈕:未請求*/
+.no-btn{
+    cursor: not-allowed;
+    pointer-events: none;
+    background-color: #8e8e8e    !important;
+}
+
+/*物品按鈕:送完*/
+.com-btn{
+    cursor: not-allowed;
+    pointer-events: none;
+    /*Button disabled - CSS color class*/
+    background-color: #0000FF !important;
+}
+
+
+/*table*/
+table.myFormat
+{
+  display: block;
+  overflow-x:auto;
+  overflow-y:hidden;
+  font-size: 20px;
+  color:black;
+  border-color: #000000 !important;
+  margin-left: 5px;
+}
+
+/*controlgroup要固定 width，表格才可以滑動*/
+.ui-controlgroup{
+  /* margin-left: 0px !important;*/
+   margin:0px !important;
+   padding: 0px !important;
+   width: 5000px !important;
+  /* box-sizing: border-box !important;*/
+}
+
+table.myFormat thead tr th
+{
+  /*padding: 2px !important;*/
+  /*height:100px !important;*/
+  background-color:#009245 !important;
+  font-size:23px !important;
+  color:white !important;
+  border: 2px solid #ddd;
+  padding-top:2px; 
+  padding-left:0px; 
+  padding-right:0px; 
+  padding-bottom:2px; 
+  text-align:left;
+  /*border-spacing:0px !important;*/
+}
+
+table.myFormat tbody tr td
+{ 
+  padding-top:2px; 
+  padding-left:5px; 
+  padding-right:3px; 
+  padding-bottom:1px; 
+  border: 1px solid #ddd;
+  /*border-bottom: none;*/
+  /*font-family:cursive, DFKai-SB, generic-family;*/
+  /*border-spacing:0px !important;*/
+}
+
+/*物品按鈕要靠左對齊*/
+table.myFormat tbody tr td.equipment
+{
+  text-align:left;
+  border: 1px solid #ddd;
+  /*border-spacing:0px !important;*/
+}
+
+table.myFormat tfoot tr td
+{
+  padding: 0px !important;
+  border: 1px solid #ddd;
+  /*border-spacing:0px !important;*/
+}
+
+/*輸入文字框*/
+.ui-input-text{
+  margin-left:  5px !important;
+  margin-right: 5px !important;
+}
+
+/*page顏色更改*/
+.ui-page {
+  background-color: white !important;
+}
+
+/*送出按鈕*/
+.item-submit{
+  margin: 0px !important;
+}
+
+/*送出按鈕不能按*/
+.item-submit-disable{
+  background-color: #4f4f4f  !important;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/*把border框線改成黑色*/
+.ui-bar-inherit{
+  border-color:#000000 !important;
+}
+
+count{
+  color: red ;
+}
+
+.ui-color1{
+    background-color: #8e8e8e   !important;
+    color: white !important;
+}
+
+.ui-color2{
+   background-color: #0ccf0e   !important;
+   color: white !important;
+}
+
+.ui-color3{
+    background-color: rgb(21, 0, 179) !important;
+    color: white !important;
+}
+
+.remarks{
+  color:black !important;
+  font-size:18px;
+  padding: 5px
+  padding-bottom: 2px !important;
+  margin-bottom: 2px !important;
+}
+
+.ui-refresh{
+    font-size:18px !important;
+}
+
+.ui-content{
+    margin-bottom: 0px !important;
+    padding-bottom: 3px !important;
+}
+
+
+.pharmacy{
+  color: #0000c6 !important;
+  cursor: auto !important;
+  pointer-events: auto !important;
+}

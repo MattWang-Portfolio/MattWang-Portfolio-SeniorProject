@@ -1,0 +1,53 @@
+.ui-page{
+font-family:Microsoft JhengHei !important;
+}
+
+/*部門*/
+departmentext{
+  color: black !important;
+  text-shadow: rgb(71, 71, 71) 1px 1px 1px !important;
+  font-size: 28px !important;
+}
+
+/*登出*/
+.logout{
+  font-size: 18px !important;
+  box-shadow:inset 0px 1px 0px 0px #6ebe45;
+  background:linear-gradient(to bottom, #6ebe45 5%, #00a94f 100%);
+  border:1px solid #41ae44;
+  font-family:Arial;
+}
+.logout:hover {
+  background:linear-gradient(to bottom, #00a94f 5%, #6ebe45 100%);
+  color:#FFF400 !important;
+}
+.logout:active {
+  position:relative;
+  top:1px;
+}
+
+/*使用者*/
+.username{
+   width:100%;
+   text-align:right !important;
+   color:black;
+   font-size:20px;
+}
+
+
+
+/*因為現在在任務執掌  ， 所以按鈕變成紅色*/
+.ui-mission{
+  font-size: 18px !important;
+  background:linear-gradient(to bottom, #faa5ba 5%, #ad033c 100%) !important;
+  border:1px solid #ff2d2d !important;
+  font-family:Arial;
+}
+.ui-mission:hover{
+  background:linear-gradient(to bottom, #ad033c 5%, #faa5ba 100%) !important;
+  color:#FFF400 !important;
+}
+.ui-mission:active{
+  position:relative;
+  top:1px;
+}

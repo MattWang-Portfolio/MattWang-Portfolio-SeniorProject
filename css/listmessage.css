@@ -1,0 +1,114 @@
+.ui-page{
+font-family:Microsoft JhengHei !important;
+}
+
+
+.ui-content{
+width: 100% !important; 
+}
+
+
+.ui-grid-c{
+width: 100% !important; 
+}
+
+/*傳送部門*/
+.ui-block-a {
+  width: 12% !important; 
+}
+/*傳送內容*/
+.ui-block-b {
+  width: 38% !important;
+}
+/*接收部門*/
+.ui-block-c {
+  width: 12% !important;
+}
+/*接收內容*/
+.ui-block-d {
+  width: 35% !important;
+}
+
+.ui-bar{
+  border-color: #dddddd !important;
+}
+
+/*三個標題*/
+department{
+  font-size:20px;
+  color:white;
+  text-align:center;
+  width: 100%;
+}
+
+/*時間*/
+datetext{
+  font-size:11px !important;
+}
+
+.listview li {
+    height :95px;
+    border-collapse: collapse !important;
+}
+
+.container {
+  padding-top: 30px;
+}
+
+/*文字*/
+.message{
+  font-size:20px;
+}
+
+/*控制文字換行*/
+pre {
+  margin-top:0px;
+  padding: 0px;
+  /*white-space: pre-wrap;      /* Since CSS 2.1 保留所有空白，自動換行*/
+/*  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+/*  white-space: -pre-wrap;     /* Opera 4-6 */
+/*  white-space: -o-pre-wrap;   /* Opera 7 */
+  white-space: pre-line;
+  word-wrap:break-word; /*若一個單字過長，超過畫面的寬度，則將單字換行(不切斷單字)。 */
+  font-size:19px;
+  width: 350px;
+}
+
+.ui-color1{
+  background-color: #ffd2d2   !important;
+}
+
+.ui-color2{
+  background-color: #ffffce    !important;
+}
+
+.ui-color3{
+  background-color: #ceffce   !important;
+}
+
+.ui-bar-a,.ui-body-inherit,.ui-bar-inherit{
+  border-color:   #444444 !important;
+}
+
+.remarks{
+  font-size:18px;
+}
+
+
+/*標題列按鈕*/
+.ui-mission,.ui-a,.ui-b,.ui-c,.ui-d,.ui-e{
+  font-size: 18px !important;
+  background:linear-gradient(to bottom, #6ebe45 5%, #00a94f 100%);
+  border:1px solid #41ae44;
+  font-family:Arial;
+}
+
+.ui-mission:hover,.ui-a:hover,.ui-b:hover,.ui-c:hover,.ui-d:hover,.ui-e:hover{
+   background:linear-gradient(to bottom, #6ebe45 5%, #00a94f 100%);
+   color:#FFF400 !important;
+}
+
+.ui-mission:active,.ui-a:active,.ui-b:active,.ui-c:active,.ui-d:active,.ui-e:active{
+    position:relative;
+    top:1px;
+}

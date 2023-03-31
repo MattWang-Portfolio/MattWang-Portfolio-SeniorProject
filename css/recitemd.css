@@ -1,0 +1,248 @@
+.ui-page{
+font-family:Microsoft JhengHei !important;
+}
+
+.ui-content{
+ width: 100% !important; 
+ padding: 0px;
+}
+
+.ui-grid-a{
+width: 100% !important; 
+}
+
+/*物品清單*/
+.ui-block-a {
+  width: 20% !important; 
+}
+
+/*請求物品*/
+.ui-block-b {
+  width: 78% !important;
+}
+
+/*各個物品的名稱*/
+.text-item{
+   width:90%;
+   color:black;
+   cursor:pointer !important;
+   font-size:20px !important; 
+   border-style:solid;
+   border-width:1px;
+   margin-bottom:15px;
+   border-color: #5b5b5b;
+   text-align:center !important;
+   background-color:#bbffbb;
+   /*font-weight:550;*/
+}
+
+/*把按鈕的圓形修改回圓弧*/
+.ui-corner-all{
+  -moz-border-radius:0;
+  -webkit-border-radius:0;
+  border-radius:5px !important;
+}
+
+/*物品分類名字:移動物...等等*/
+.ui-class{
+   font-size:20px !important; 
+   color:white !important;
+   margin-top:15px !important; 
+}
+
+.ui-controlgroup-controls{
+  margin-top:15px; 
+}
+
+/*隱藏文字，點選按鈕後才顯示*/
+.hidden-text{
+  display:none;
+  margin-top: 15px !important;
+}
+
+/*table字體大小*/
+table.myFormat
+{
+  /*width:1000px !important;*/
+  display: block;
+  overflow-x:scroll;
+  font-size: 18px;
+  color:black;
+  /*border-width:1px !important;*/
+  border-collapse: collapse !important;
+}
+
+/*th高度*/
+table.myFormat thead tr th
+{
+  background-color:#009245 !important;
+  font-size:18px !important;
+  color:white !important;
+  border:1px  #000000 solid !important;
+  /*height:80px !important;*/
+  padding:0px; 
+
+}
+
+/*td高度*/
+table.myFormat tbody tr td
+{
+  /*height:50px !important;*/
+  text-align:center !important;
+  font-size:18px !important;
+  padding-top:2px; 
+  padding-left:0px; 
+  padding-right:0px; 
+  padding-bottom:2px; 
+  border:1px  #000000 solid !important;
+}
+
+/*部門*/
+departmentext{
+  color: white !important;
+  text-shadow: rgb(71, 71, 71) 3px 5px 2px !important;
+  font-size: 25px !important;
+}
+
+
+.btn-subject{
+    cursor: not-allowed;
+    pointer-events: none;
+    color: white !important;
+    background-color: #009245   !important;
+    border:1px #009245 solid !important;
+    font-size: 20px !important;
+    padding:2px !important; 
+    margin:5px !important; 
+}
+
+
+.btn-item{
+    cursor: not-allowed;
+    pointer-events: none;
+    color: black !important;
+    background-color: white   !important;
+    border:1px #FFFFFF solid !important;
+    font-size: 20px !important;
+    padding:2px !important; 
+    margin:5px !important; 
+}
+
+/*完成按鈕*/
+.com-btn{
+    background-color: #0000FF !important;
+}
+.com-btn:hover{
+    background-color: red !important;
+}
+
+/*接收按鈕*/
+.receive-btn{
+    cursor: not-allowed;
+    pointer-events: none;
+    
+    background-color: #0a5061 !important;
+}
+
+
+.ui-item-btn{
+    margin:3px !important;
+    padding: 5px !important;
+    font-size: 20px !important;
+    border:1px #000000 solid !important;
+    width: 75px !important;
+}
+
+
+/*把border框線改成黑色*/
+.ui-bar-inherit,.ui-bar-a{
+    border: 0px;
+}
+
+
+.ui-block-a {
+  border: 1px solid #ddd;
+}
+
+
+.ui-block-b {
+  border: 1px solid #ddd;
+  border-left: 0px !important;
+  border-bottom: 0px !important;
+  border-right: 0px !important;
+}
+
+
+/*按鈕顏色*/
+.ui-item-receive {
+  background-color: #FF0000   !important;
+}
+
+count{
+  color: red  !important;
+}
+
+.ui-bar{
+    background-color: white   !important;
+    box-shadow:1px 1px 5px rgba(0, 0, 0, 0.7) !important;
+}
+
+/*page顏色更改*/
+.ui-page {
+  background-color: white  !important;
+}
+
+.remarks{
+  color:black !important;
+  font-size:18px;
+  padding: 5px
+}
+
+.ui-refresh{
+    font-size:18px !important;
+}
+
+
+/*物品接收按鈕顏色*/
+.ui-item-receive{
+  font-size: 18px !important;
+  background:linear-gradient(to bottom, #faa5ba 5%, #ad033c 100%) !important;
+  border:1px solid #ff2d2d !important;
+  font-family:Arial;
+}
+.ui-item-receive:hover{
+  background:linear-gradient(to bottom, #ad033c 5%, #faa5ba 100%) !important;
+  color:#FFF400 !important;
+}
+.ui-item-receive:active{
+  position:relative;
+  top:1px;
+}
+
+  /*其他按鈕顏色*/
+   .ui-all{
+    font-size: 18px !important;
+    background:linear-gradient(to bottom, #6ebe45 5%, #00a94f 100%) ;
+    border:1px solid #41ae44;
+    font-family:Arial;
+   }
+
+  .ui-all:hover {
+    background:linear-gradient(to bottom, #00a94f 5%, #6ebe45 100%)  ;
+    color:#FFF400 !important;
+  }
+  .ui-all:active {
+     position:relative;
+     top:1px;
+  } 
+
+
+
+
+
+
+
+
+.ui-bar-a,.ui-body-inherit,.ui-bar-inherit{
+  border-color:  #444444 !important;
+}

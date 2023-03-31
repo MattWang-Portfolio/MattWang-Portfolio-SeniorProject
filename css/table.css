@@ -1,0 +1,81 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(15, 15, 15);
+}
+
+
+
+th,
+td {
+    padding: 20px;
+}
+
+html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+thead th,
+tfoot th {
+    font-family: 'Rock Salt', cursive;
+}
+
+th {
+    letter-spacing: 2px;
+}
+
+td {
+    letter-spacing: 1px;
+}
+
+tbody td {
+    text-align: center;
+}
+
+tfoot th {
+    text-align: right;
+}
+
+thead,
+tfoot {
+    background: url(leopardskin.jpg);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+thead th,
+tfoot th,
+tfoot td {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+    border: 3px solid rgb(234, 186, 64);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(234, 186, 64);
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffa500;
+}
+
+input {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background: none;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 22px;
+    outline: none;
+    color: rgb(9, 9, 9);
+}
+
+input[type="button"] {
+    background: #ffa500;
+    width: 200px;
+    border: 3px solid #080808;
+    cursor: pointer;
+    font-size: large;
+    align-items: center;
+}

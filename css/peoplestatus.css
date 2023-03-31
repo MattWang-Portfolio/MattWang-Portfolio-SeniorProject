@@ -1,0 +1,137 @@
+.ui-page{
+font-family:Microsoft JhengHei !important;
+}
+
+html{
+    height:100% !important;
+}
+
+body{
+    height: 100% !important;
+}
+
+#page{
+    height: 100% !important;
+}
+
+.ui-content{
+    height: 100% !important;
+}
+
+.ui-grid-a{
+    height: auto !important;
+}
+
+.ui-block-a{
+    height: auto !important;
+}
+
+#svg{
+    height:405px !important;
+}
+
+/*ui-bar*/
+.ui-bar{
+    background-color: white !important;
+    box-shadow:1px 1px 5px rgba(0, 0, 0, 0.7) !important;
+}
+
+/*page顏色更改*/
+.ui-page {
+  background-color: white !important;
+}
+
+/*病人按鈕*/
+.ui-patient{
+  text-align:left !important;
+  margin-top: 0px;
+  cursor: not-allowed;
+  pointer-events: none;
+  background-color: #ceffce  !important;
+  color: black !important;
+  font-weight: 650;
+}
+
+/*組織架構、病人動態*/
+.item{
+   background-color:#000000 !important;
+   color: white;
+   font-size:20px; 
+   margin: 0px;
+   margin-bottom: 0px;
+   text-align:center !important;
+   width:100% !important;
+
+}
+
+/*svg的字大小*/
+svg{
+   font-size:24px;
+}
+
+/*把border框線改成黑色*/
+.ui-bar-inherit,.ui-bar-a{
+  border-color:#444444 !important;
+}
+
+/*table*/
+table.myFormat
+{
+  font-size: 18px;
+  color:black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /*border: 2px solid #000000;*/
+  border-collapse: collapse !important;
+  width: 100%;
+
+}
+
+table.myFormat tr th
+{ 
+  padding-top:2px; 
+  padding-left:5px; 
+  padding-right:3px; 
+  padding-bottom:1px; 
+  border: 2px solid #000000;
+   background-color:#1C48D4  !important;
+   color: white;
+}
+
+table.myFormat tr th.num
+{ 
+   width: 180px;
+}
+
+table.myFormat tr th.anum
+{ 
+   width: 180px;
+}
+
+
+table.myFormat tr td.count
+{ 
+   background-color:#ADADFF !important;
+}
+
+
+
+table.myFormat tr td
+{ 
+  padding-top:2px; 
+  padding-left:5px; 
+  padding-right:3px; 
+  padding-bottom:1px; 
+  border: 2px solid #000000;
+  text-align:center !important;
+  background-color:#E0E0FF;
+  color: black;
+  /*border-bottom: none;*/
+  /*font-family:cursive, DFKai-SB, generic-family;*/
+  /*border-spacing:0px !important;*/
+}
+
+.refresh{
+   text-align:right !important;
+   color: black;
+}

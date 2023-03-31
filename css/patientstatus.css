@@ -1,0 +1,210 @@
+.ui-page{
+font-family:Microsoft JhengHei !important;
+}
+
+html{
+    height:100% !important;
+}
+
+body{
+    height: 100% !important;
+}
+
+#page{
+    height: 100% !important;
+}
+
+.ui-content{
+    height: 100% !important;
+}
+
+.ui-grid-a{
+    height: auto !important;
+}
+
+.ui-block-a{
+    height: auto !important;
+}
+
+/*page顏色更改*/
+.ui-page {
+  background-color: white !important;
+}
+
+/*ui-bar*/
+.ui-bar{
+    background-color: white !important;
+    box-shadow:1px 1px 5px rgba(0, 0, 0, 0.7) !important;
+}
+
+/*病人動態*/
+.item{
+   background-color:#000000 !important;
+   color: white;
+   font-size:20px;
+   margin: 0px;
+   margin-bottom: 0px;
+   text-align:center !important;
+   width:100% !important;
+}
+
+/*controlgroup代表button群組，不過好像沒用*/
+.ui-controlgroup{
+    margin: 5px !important;
+    padding: 0px !important;
+}
+
+/*svg的字大小*/
+svg{
+   font-size:18px;
+}
+
+.ui-extra{
+  background:linear-gradient(to bottom, #6ebe45 5%, #00a94f 100%);
+  border-radius:50%;
+  border:1px solid #41ae44;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  width: 80px;
+  font-size:18px !important;
+}
+
+.ui-extra:hover {
+  background:linear-gradient(to bottom, #00a94f 5%, #6ebe45 100%);
+  color:#FFF400 !important;
+}
+
+.ui-extra:active {
+  position:relative;
+  top:1px;
+}
+
+
+
+/*把border框線改成黑色*/
+.ui-bar-inherit,.ui-bar-a{
+  border-color:#444444 !important;
+}
+
+
+/*病人全部*/
+.patient-all{
+  text-align: center;
+}
+
+
+/*病人動態間隔*/
+.patient{
+  margin-top: 15px !important;
+  display:inline-block !important;
+  width:450px;
+  height:100%;
+}
+
+/*病人狀況:重度傷害、總人數...等等*/
+.patient-style{
+   width:225px;
+   height:37px;
+   display:inline-block !important;
+   margin-left: 15px !important;
+   margin-top: 0px !important;
+   font-size:23px;
+   text-align:center !important;
+   padding: 2px;
+   border-color: white;
+   border-width:9px;
+   border:white 1px solid; 
+   color:white !important;
+}
+
+/*病人人數1、2*/
+.number-style{
+   width:105px  !important;
+   height:37px;
+   display:inline-block !important;
+   color:black !important;
+   margin-top: 0px !important;
+   margin-left: 5px !important;
+   font-size:23px;
+   text-align:right; 
+   padding: 2px;
+   border-color: white;
+   border-width:9px;
+}
+
+/*病人人數1、2(隱藏)*/
+.number-style1{
+   width:105px  !important;
+   height:37px;
+   display:inline-block !important;
+   color:black !important;
+   margin-top: 0px !important;
+   margin-left: 5px !important;
+   font-size:23px;
+   text-align:right; 
+   padding: 2px;
+   border-color: white;
+   border-width:9px;
+}
+
+
+/*重度傷害*/
+.severe{
+   background-color:#ff0000   !important;
+}
+.severe-number{
+   background-color:#ffd2d2  !important;
+   margin-left: 1px !important;
+}
+
+
+/*中度傷害*/
+.moderate{
+  background-color:#ffd306  !important;
+
+}
+.moderate-number{
+   background-color:#fff4c1  !important;
+   margin-left: 1px !important;
+}
+
+
+/*輕度傷害*/
+.mild{
+     background-color:#00a600  !important;
+}
+.mild-number{
+   background-color:#ceffce  !important;
+   margin-left: 1px !important;
+}
+
+
+/*死亡*/
+.death
+{
+  background-color:#272727    !important;
+}
+.death-number{
+  background-color:#d0d0d0    !important;
+}
+
+
+/*留觀*/
+.watch{
+  background-color:#0080ff   !important;
+}
+.watch-number{
+  background-color:#c4e1ff   !important;
+}
+
+
+/*總人數*/
+.sum{
+  background-color:#b15bff  !important;
+}
+.sum-number{
+  background-color:#e6caff  !important;
+  margin-left: 1px !important;
+}

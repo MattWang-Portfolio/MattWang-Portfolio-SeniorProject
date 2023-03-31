@@ -1,0 +1,357 @@
+
+.ui-page{
+   font-family:Microsoft JhengHei !important;
+}
+
+/*content*/
+.ui-content{
+  width: 100% !important; 
+  padding: 0px;
+}
+.ui-grid-a{
+   width: 100% !important; 
+}
+
+/*物品清單*/
+.ui-block-a {
+  width: 17% !important; 
+}
+
+/*請求物品*/
+.ui-block-b {
+  width: 82% !important;
+}
+
+/*各個物品的名稱*/
+.text-item{
+   width:90%;
+   color:black;
+   cursor:pointer !important;
+   font-size:20px !important; 
+   border-style:solid;
+   border-width:1px;
+   margin-bottom:15px;
+   border-color: #5b5b5b;
+   text-align:center !important;
+   background-color:#bbffbb;
+   /*font-weight:550;*/
+}
+
+/*把按鈕的圓形修改回圓弧*/
+.ui-corner-all{
+  -moz-border-radius:0;
+  -webkit-border-radius:0;
+  border-radius:5px !important;
+}
+
+/*物品分類名字:移動物...等等*/
+.ui-class{
+   font-size:18px !important; 
+   color:white !important;
+   margin-top:15px !important; 
+   background-color:#00a94f !important; 
+}
+
+/*左邊有:  物品分類名字:移動物...等等 的範圍*/
+.ui-controlgroup-controls{
+ /* margin-top:15px; */
+}
+
+
+/*隱藏文字，點選按鈕後才顯示*/
+.hidden-text{
+  /*font-size:0;
+  overflow:hidden;*/
+  display:none;
+  margin-top: 15px !important;
+}
+
+/*table字體大小*/
+table.myFormat
+{
+  width: 100%;
+  display: block;
+  overflow-x:scroll;
+  font-size: 18px;
+  color:black;
+ /* border-width:1px !important;*/
+ /* border: 1px !important;
+  border-color: #000000 !important;*/
+  border-collapse: collapse !important;
+}
+
+/*th高度*/
+table.myFormat thead tr th
+{
+  background-color:#009245 !important;
+  font-size:18px !important;
+  color:white !important;
+  /*height:80px !important;*/
+  padding:0px; 
+  border:1px  #000000 solid !important;
+
+}
+
+/*td高度*/
+table.myFormat tbody tr td
+{
+  /*height:50px !important;*/
+  text-align:center !important;
+  font-size:18px !important;
+  padding-top:2px; 
+  padding-left:0px; 
+  padding-right:0px; 
+  padding-bottom:2px; 
+  border:1px  #000000 solid !important;
+}
+
+/*ui-bar*/
+.ui-bar{
+   background-color: white  !important;
+}
+
+/*page顏色更改*/
+.ui-page {
+   background-color: white !important;
+}
+
+
+
+/*部門*/
+departmentext{
+  color: white !important;
+  text-shadow: rgb(71, 71, 71) 3px 5px 2px !important;
+  font-size: 25px !important;
+}
+
+
+/*按鈕有未請求、已請求、已送出、已接收、的樣式*/
+.ui-btn.ui-status-btn{
+    display:inline-block;
+    /*background:linear-gradient(to bottom, #6ebe45 5%, #00a94f 100%);*/
+    /*border:1px solid #41ae44;*/
+    /*color:#ffffff;*/
+    font-family:Arial;
+    font-size:18px;
+    font-weight:bold;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #86ae47;
+    margin: 1px !important;
+}
+.ui-btn.ui-status-btn:hover {
+  /*background:linear-gradient(to bottom, #00a94f 5%, #6ebe45 100%) ;*/
+  color:#FFF400 !important;  /*指到當前按鈕，會是黃色*/
+}
+.ui-btn.ui-status-btn:active {
+  position:relative;
+  top:1px;
+}
+
+/*0 1 2 3四種狀態*/
+.ui-color1{
+    background-color: rgb(12, 207, 14)  !important;
+    border:1px solid rgb(12, 207, 14) !important;
+    color: white !important;
+}
+
+.ui-color2{
+    background-color: #444444  !important;
+    border:1px solid #444444 !important;
+    color: white !important;
+}
+
+.ui-color3{
+    background-color: #0000FF !important;
+    border:1px solid #0000FF !important;
+    color: white !important;
+}
+
+.ui-color4{
+    background-color: #000000  !important;
+    border:1px solid  #000000 !important;
+    color: white !important;
+
+}
+
+.ui-color5{
+    background-color: #00a94f  !important;
+    border:1px solid #00a94f !important;
+    /*background:linear-gradient(to bottom, #faa5ba 5%, #ad033c 100%) !important;*/
+    color: white !important;
+}
+
+/*狀態按鈕 紅色 代表現在在這*/
+.ui-red-status{
+  font-size: 18px !important;
+  background:linear-gradient(to bottom, #faa5ba 5%, #ad033c 100%) !important;
+  border:1px solid #ff2d2d !important;
+  font-family:Arial;
+}
+.ui-red-status:hover{
+  background:linear-gradient(to bottom, #ad033c 5%, #faa5ba 100%) !important;
+  color:#FFF400 !important;
+}
+.ui-red-status:active{
+  position:relative;
+  top:1px;
+}
+
+/*黃色的字*/
+/*.ui-text{
+    color:#FFF400 !important;
+}*/
+
+
+/*未請求按鈕*/
+.no-request-btn{
+}
+
+
+/*請求按鈕*/
+.request-btn{
+    cursor: not-allowed;
+    pointer-events: none;
+    background-color: #444444  !important;
+}
+
+/*完成按鈕*/
+.com-btn{
+    background-color: #0000FF !important;
+}
+/*支援單位的button要比較小的按鈕*/
+.ui-btn.com-btn:hover{
+  background-color: red !important;
+}
+
+
+
+/*接收按鈕*/
+.receive-btn{
+    cursor: not-allowed;
+    pointer-events: none;
+    /*Button disabled - CSS color class*/
+    background-color: #000000 !important;
+}
+
+
+/*全部按紐*/
+.ui-item-btn{
+    margin:3px !important;
+    padding: 5px !important;
+    font-size: 20px !important;
+    border:1px #000000 solid !important;
+    width: 75px !important;
+}
+
+
+/*為了要讓table的字一列，所以把字放成button*/
+/*品項/單位 總數*/
+.btn-subject{
+    cursor: not-allowed;
+    pointer-events: none;
+    color: white !important;
+    background-color: #009245   !important;
+    border:1px #009245 solid !important;
+    font-size: 20px !important;
+    padding:2px !important; 
+    margin:5px !important; 
+}
+
+.btn-item{
+    cursor: not-allowed;
+    pointer-events: none;
+    color: black !important;
+    background-color: white   !important;
+    border:1px #FFFFFF solid !important;
+    font-size: 20px !important;
+    padding:2px !important; 
+    margin:5px !important; 
+}
+
+/*把border框線改成黑色*/
+.ui-bar-inherit,.ui-bar-a{
+    border: 0px;
+}
+
+.ui-block-a {
+  border: 1px solid #ddd;
+}
+
+.ui-block-b {
+  border: 1px solid #ddd;
+  border-left: 0px !important;
+  border-bottom: 0px !important;
+  border-right: 0px !important;
+}
+
+.ui-bar-a,.ui-body-inherit,.ui-bar-inherit{
+  border-color:  #444444 !important;
+}
+.ui-bar{
+    background-color: white   !important;
+    box-shadow:1px 1px 5px rgba(0, 0, 0, 0.7) !important;
+}
+
+
+/*數字*/
+count{
+  color: red  !important;
+}
+
+count1{
+  color: white  !important;
+}
+
+.ui-refresh{
+  font-size:18px !important;
+}
+
+
+/*page顏色更改*/
+.ui-page {
+  background-color: white  !important;
+}
+
+
+/*註解*/
+.remarks{
+  color:black !important;
+  font-size:18px;
+  padding: 5px
+}
+
+
+/*物品請求按鈕顏色*/
+.ui-request{
+  font-size: 18px !important;
+  background:linear-gradient(to bottom, #faa5ba 5%, #ad033c 100%) !important;
+  border:1px solid #ff2d2d !important;
+  font-family:Arial;
+}
+.ui-request:hover{
+  background:linear-gradient(to bottom, #ad033c 5%, #faa5ba 100%) !important;
+  color:#FFF400 !important;
+}
+.ui-request:active{
+  position:relative;
+  top:1px;
+}
+
+  /*其他按鈕顏色*/
+   .ui-all{
+    font-size: 18px !important;
+    background:linear-gradient(to bottom, #6ebe45 5%, #00a94f 100%) ;
+    border:1px solid #41ae44;
+    font-family:Arial;
+   }
+
+  .ui-all:hover {
+    background:linear-gradient(to bottom, #00a94f 5%, #6ebe45 100%)  ;
+    color:#FFF400 !important;
+  }
+  .ui-all:active {
+     position:relative;
+     top:1px;
+  } 
+
+

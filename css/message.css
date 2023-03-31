@@ -1,0 +1,156 @@
+.ui-page{
+    font-family:Microsoft JhengHei !important;
+}
+
+
+/*傳送按鈕*/
+.btn-transfer{
+  font-size:18px !important; 
+  display:inline-block;
+  margin: 0px !important; 
+  margin-bottom: 10px !important; 
+  min-width: 340px !important; 
+  text-align: left !important;
+  background-color:#00a94f !important; 
+}
+.btn-transfer:hover{
+   background-color:red !important;
+}
+
+
+/*textarea*/
+textarea.ui-input-text{ 
+  min-height: 170px !important; 
+  font-size:25px !important; 
+  /*
+  min-width: 700px; 
+  */
+}
+/*textarea的placeholder*/
+::placeholder {
+  font-size:25px !important; 
+}
+/*時間*/
+datetext{
+  font-size:13px;
+}
+
+/*listview*/
+/*div[data-role="content"] {
+   /*position: relative;*/
+/*}*/
+.listview li {
+    height :90px;
+}
+
+.container {
+  padding-top: 30px;
+}
+
+/*文字*/
+.message{
+  font-size:20px;
+}
+
+pre {
+  margin-top:0px;
+  padding: 0px;
+  /*white-space: pre-wrap;      /* Since CSS 2.1 保留所有空白，自動換行*/
+/*  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+/*  white-space: -pre-wrap;     /* Opera 4-6 */
+/*  white-space: -o-pre-wrap;   /* Opera 7 */
+  white-space: pre-line;
+  word-wrap:break-word; /*若一個單字過長，超過畫面的寬度，則將單字換行(不切斷單字)。 */
+  font-size:19px;
+  width: 350px;
+}
+
+.ui-content{
+width: 100% !important; 
+}
+
+.ui-grid-b{
+width: 100% !important; 
+}
+
+/*部門*/
+.ui-block-a {
+  width: 12% !important; 
+}
+
+/*訊息內容*/
+.ui-block-b {
+  width: 45% !important;
+}
+
+/*訊息狀態*/
+.ui-block-c {
+  width: 40% !important;
+}
+
+.ui-bar{
+  border-color: #dddddd !important;
+}
+
+/*剩餘文字*/
+.remain-texts {
+  background-color: #bf0060  !important;
+  color:white !important;
+  font-size:20px;
+}
+
+/*部門、訊息內容、訊息狀態 */
+department{
+    font-size:20px;
+}
+
+/*回覆數字*/
+count{
+  color:red !important;
+}
+
+/*訊息傳送按鈕顏色*/
+.ui-message {
+  background-color: #FF0000   !important;
+}
+
+.ui-remarks{
+  /*color:#ff5151   !important;*/
+}
+
+/*訊息傳送按鈕顏色*/
+.ui-message{
+  font-size: 18px !important;
+  background:linear-gradient(to bottom, #faa5ba 5%, #ad033c 100%) !important;
+  border:1px solid #ff2d2d !important;
+  font-family:Arial;
+}
+.ui-message:hover{
+  background:linear-gradient(to bottom, #ad033c 5%, #faa5ba 100%) !important;
+  color:#FFF400 !important;
+}
+.ui-message:active{
+  position:relative;
+  top:1px;
+}
+
+  /*其他按鈕顏色*/
+   .ui-all{
+    font-size: 18px !important;
+    background:linear-gradient(to bottom, #6ebe45 5%, #00a94f 100%) ;
+    border:1px solid #41ae44;
+    font-family:Arial;
+   }
+
+  .ui-all:hover {
+    background:linear-gradient(to bottom, #00a94f 5%, #6ebe45 100%)  ;
+    color:#FFF400 !important;
+  }
+  .ui-all:active {
+     position:relative;
+     top:1px;
+  } 
+
+.ui-bar-a,.ui-body-inherit,.ui-bar-inherit{
+  border-color:  #444444 !important;
+}

@@ -1,0 +1,156 @@
+.ui-page{
+font-family:Microsoft JhengHei !important;
+}
+
+/*grid*/
+.ui-content{
+  width: 100% !important; 
+}
+.ui-grid-a{
+  width: 100% !important; 
+}
+/*物品清單*/
+.ui-block-a {
+  width: 17% !important; 
+}
+/*請求物品*/
+.ui-block-b {
+  width: 82% !important;
+}
+
+.ui-controlgroup-controls{
+  margin-top:15px; 
+}
+
+/*各個物品的名稱:急救箱、輪椅...等等*/
+.text-item{
+   width:90%;
+   color:black;
+   cursor:pointer !important;
+   font-size:20px !important; 
+   border-style:solid;
+   border-width:1px;
+   margin-bottom:15px;
+   border-color: #5b5b5b;
+   text-align:center !important;
+   background-color:#bbffbb;
+}
+
+/*把按鈕的角落圓形修改回圓弧*/
+.ui-corner-all{
+  -moz-border-radius:0;
+  -webkit-border-radius: 0;
+  border-radius: 5px !important;
+}
+
+/*物品分類名字:移動物、耗材...等等*/
+.ui-class{
+   font-size:20px !important; 
+   color:white !important;
+   margin-top:15px !important; 
+   background-color:#00a94f !important; 
+}
+
+/*單位，品項，請求總數，單位送出總數*/
+.btn-subject{
+    cursor: not-allowed;
+    pointer-events: none;
+    color: black !important;
+    background-color: white   !important;
+    border:1px #FFFFFF solid !important;
+    font-size: 20px !important;
+    padding:2px !important; 
+    margin:5px !important; 
+    font-family:Microsoft JhengHei !important;
+}
+
+/*物品名稱*/
+.btn-item{
+    cursor: not-allowed;
+    pointer-events: none;
+    color: white !important;
+    background-color: #009245   !important;
+    border:1px #009245 solid !important;
+    font-size: 20px !important;
+    padding:2px !important; 
+    margin:5px !important; 
+    font-family:Microsoft JhengHei !important;
+}
+
+/*隱藏文字，點選按鈕後才顯示*/
+.hidden-text{
+  display:none;
+}
+
+/*ui-bar，把背景顏色改掉*/
+.ui-bar{
+    background-color: white !important;
+    box-shadow:1px 1px 5px rgba(0, 0, 0, 0.7) !important;
+}
+
+/*table*/
+table.myFormat
+{
+  display: block;
+  overflow-x:scroll;
+  width:100%;
+  font-size: 20px;
+  color:black;
+  text-align:center;
+  border-collapse: collapse !important;
+}
+
+table.myFormat thead tr th
+{
+  /*padding: 2px !important;*/
+  /*height:100px !important;*/
+  background-color:#009245 !important;
+  font-size:23px !important;
+  color:white !important;
+ /* border: 2px solid #ddd;*/
+  text-align:center;
+  padding-top:2px; 
+  padding-left:0px; 
+  padding-right:0px; 
+  padding-bottom:2px; 
+  border:1px  #000000 solid !important;
+ /* border-bottom: none;*/
+  /*border-spacing:0px !important;*/
+}
+
+table.myFormat tbody tr td
+{ 
+  padding-top:2px; 
+  padding-left:0px; 
+  padding-right:0px; 
+  padding-bottom:2px; 
+  border:1px  #000000 solid !important;
+ /* border: 1px solid #ddd;*/
+  /*border-bottom: none;*/
+  /*border-spacing:0px !important;*/
+}
+
+/*把border框線改成黑色*/
+.ui-bar-inherit,.ui-bar-a{
+  border-color:#444444 !important;
+}
+
+
+
+
+
+/*改變物品顏色*/
+/*.item-color{
+  color:red !important;
+}*/
+
+/*
+pre {
+  margin-top:0px;
+  padding: 0px;
+
+  white-space:pre-wrap !important;
+  word-wrap:break-word !important; 
+  width: 80px; 
+  text-align:center !important;
+}*/

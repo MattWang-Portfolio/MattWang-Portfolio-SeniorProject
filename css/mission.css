@@ -1,0 +1,152 @@
+.ui-page{
+font-family:Microsoft JhengHei !important;
+}
+
+
+/*三個標題，準備待命、狀況解除...等等*/
+statustext{
+  font-size:20px;
+  color:white;
+  text-align:center;
+  width: 100%;
+}
+
+/*文字換行*/
+pre {
+  margin-top:0px; /*不然會空一行*/
+  padding: 0px;
+  white-space: pre-line;
+  word-wrap:break-word; /*若一個單字過長，超過畫面的寬度，則將單字換行(不切斷單字)。 */
+  font-size:17px !important;
+  width: 270px;
+  /*cursor: default;*/
+  user-select: none;/*字不能選取*/
+
+}
+
+.ui-content{
+   width: 100% !important; 
+}
+
+.ui-grid-b{
+   width: 100% !important; 
+}
+
+/*準備待命*/
+.ui-block-a {
+   width: 33% !important; 
+}
+
+/*狀況處理*/
+.ui-block-b {
+   width: 33% !important;
+}
+
+/*狀況解除*/
+.ui-block-c {
+   width: 31% !important;
+}
+
+.ui-bar{
+   border-color: #dddddd !important;
+}
+
+/*checkbox按鈕*/
+.ui-checkbox {
+    position: absolute;   /*必要，不然位置會完全跑掉*/
+    /*調整按鈕高度*/
+    top: 17%;
+    left: 18px;
+    height: 22px;
+    width: 22px;
+    margin: 0;
+    margin-top: -3px;
+    margin-left: -11px;
+}
+
+/*這樣才可以checkbox按鈕在左邊，文字在右邊*/
+.has-checkDiv > li > div:first-child {
+    margin-left: 23px !important;  /*這是文字的margin-left*/
+    /*height: 180px;*/
+}
+
+
+.container {
+  padding-top: 30px;
+}
+
+
+/*修改listview的高度*/
+.ui-body-inherit{
+  height: 150px;
+  /*cursor:pointer !important;*/
+}
+
+/*第一格listview高度*/
+.ui-first-child{
+  height: 150px !important;
+  font-size:20px;
+  color:black!important;
+  background-color: white  !important;
+}
+
+/*最後一格listview*/
+.ui-last-child{
+  height: 150px;
+}
+
+.ui-listview>.ui-li-static {
+ 
+}
+
+/*如果只有一個項目的listview，就會有.ui-first-child、.ui-last-child這兩個class，這樣寫就可以指定多個class*/
+
+li.ui-first-child.ui-last-child{
+  height: 160px !important;
+}
+
+
+/*訊息接收的數字*/
+count{
+  color:red !important;
+}
+
+
+/*因為現在在任務執掌  ， 所以按鈕變成紅色*/
+.ui-mission{
+  font-size: 18px !important;
+  background:linear-gradient(to bottom, #faa5ba 5%, #ad033c 100%) !important;
+  border:1px solid #ff2d2d !important;
+  font-family:Arial;
+}
+.ui-mission:hover{
+  background:linear-gradient(to bottom, #ad033c 5%, #faa5ba 100%) !important;
+  color:#FFF400 !important;
+}
+.ui-mission:active{
+  position:relative;
+  top:1px;
+}
+
+  /*除了任務執掌以外的按鈕顏色*/
+   .ui-all{
+    font-size: 18px !important;
+    background:linear-gradient(to bottom, #6ebe45 5%, #00a94f 100%) ;
+    border:1px solid #41ae44;
+    font-family:Arial;
+   }
+
+  .ui-all:hover {
+    background:linear-gradient(to bottom, #00a94f 5%, #6ebe45 100%)  ;
+    color:#FFF400 !important;
+  }
+  .ui-all:active {
+     position:relative;
+     top:1px;
+  } 
+
+
+  /*線*/
+.ui-bar-a,.ui-body-inherit,.ui-bar-inherit{
+  border-color:  #444444 !important;
+}
