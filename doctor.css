@@ -1,0 +1,12 @@
+table.one {
+  background: #ffffff;
+  background-image: linear-gradient(45deg, #ffffff, #cccccc);
+  border-collapse: collapse;
+}
+
+table.one td, table.one th {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  text-align: center;
+  background: url("texture.png") repeat;
+}
